@@ -12,4 +12,8 @@ $(document).ready(function () {
     $("#third-wish").on("click", function() {
         $("#fourth-wish").fadeIn(1800);
     });
+
+    $("#fourth-wish").on("click", function () {
+        $("body").css("background-color", "red");
+     });
 });
