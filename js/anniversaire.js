@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $("#first-wish ~ .wishes").hide();
+    $("#first-wish ~ .wish-card").hide();
 });
