@@ -3,8 +3,22 @@ body {
     text-align: center;
 }
 .wish-card {
-    background-color: darkcyan;
-    border: 5px solid darkred;
     text-align: center;
     display: inline-block;
+}
+#first-card{
+    background-color: darkcyan;
+    border: 5px solid darkred;
+}
+#second-card{
+    background-color: rgb(224, 38, 38);
+    border: 5px solid rgb(211, 238, 149);
+}
+#third-card{
+    background-color: rgb(110, 228, 139);
+    border: 5px solid rgb(201, 112, 10);
+}
+#fourth-card{
+    background-color: rgb(129, 49, 194);
+    border: 5px solid rgb(236, 195, 141);
 }
