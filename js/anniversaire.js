@@ -1,19 +1,19 @@
 $(document).ready(function () {
-    $("#first-wish ~ .wish-card").hide();
+    $("#first-card ~ .wish-card").hide();
 
-    $("#first-wish").on("click", function() {
-        $("#second-wish").fadeIn(1800);
+    $("#first-card").on("click", function() {
+        $("#second-card").fadeIn(1800);
     });
 
-    $("#second-wish").on("click", function() {
-        $("#third-wish").fadeIn(1800);
+    $("#second-card").on("click", function() {
+        $("#third-card").fadeIn(1800);
     });
 
-    $("#third-wish").on("click", function() {
-        $("#fourth-wish").fadeIn(1800);
+    $("#third-card").on("click", function() {
+        $("#fourth-card").fadeIn(1800);
     });
 
-    $("#fourth-wish").on("click", function () {
+    $("#fourth-card").on("click", function () {
         $("body").css("background-color", "red");
      });
 });
