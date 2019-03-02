@@ -14,6 +14,6 @@ $(document).ready(function () {
     });
 
     $("#fourth-card").on("click", function () {
-        $("body").css("background-color", "red");
+        $("body").css("background-color", "orange");
      });
 });
